@@ -1,0 +1,67 @@
+.body{
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    height: 93px ;
+    padding-bottom: 6px !important;
+}
+.nav-link  {
+    color: #C9AD85 !important;     
+padding-top: 14px !important;
+padding-bottom: 32px !important;
+margin-left: 43px !important;
+font-size: 19px !important;
+display: inline !important;
+}
+.navbar{
+    padding: 0% !important;
+}
+.nav-item a:hover{
+  
+    border-bottom: 5px solid #C9AD85;
+  
+}
+.navbar-expand-md{
+    padding-bottom: 0px !important;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1; 
+     background-color:rgb(85, 67, 67) !important; 
+     border: 0 !important;
+    border-radius: .25rem;
+}
+.bg-overlay{
+    background-color:#353841 ;
+    color: #C9AD85;
+   
+    background-image: url("/home/maindwave-dev1/Documents/Task3/asserts/Images/icons.png");
+   
+    
+}
+
+.para_one{
+    font-size: 34px !important;
+    padding-top: 130px;
+    font-weight: bold;
+    line-height: 1.1 !important;
+  
+}
+
+.img_bt{
+   
+    height: 62px;
+    padding-top: 15px;
+}
+.img_Phone{
+    height: 580px;
+    float: right;
+    padding-top: 31px;
+}
+.para3{
+    font-size: 34px;
+    padding-top: 59px;
+    text-align: center;
+    padding-bottom: 41px;
+}
