@@ -7,9 +7,10 @@ body{
     background-color: #f0f0f0e5;
 }
 .para_How{
-    padding-bottom: 55px;
+    padding-bottom: 84px;
 }
 .logo{
+
     height: 93px ;
     padding-bottom: 6px !important;
 }
@@ -39,7 +40,7 @@ display: inline !important;
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1; 
-     background-color:rgb(85, 67, 67) !important; 
+     background-color:#C9AD85!important; 
      border: 0 !important;
     border-radius: .25rem;
 }
@@ -48,8 +49,15 @@ display: inline !important;
     color: #C9AD85;
     background-repeat: repeat;
     background-image: url("/home/maindwave-dev1/Documents/Task3/asserts/Images/icons.png");
-   
-    
+      
+}
+.btn-outlined {
+    border-radius: 0rem !important;
+    background-color: #C9AD85;
+    padding: 5px 32px 5px 32px !important;
+}
+.rounded-circle{
+    height: 79px;
 }
 .line-number {
     margin-top: -4%;
@@ -79,6 +87,12 @@ display: inline !important;
     float: right;
     padding-top: 23px;
 }
+a {
+    color: #C9AD85 !important;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
 .para3{
     font-size: 31px;
     padding-top: 59px;
@@ -107,8 +121,12 @@ font-size: 34px;
   
     
 }
+
+.btn{
+    font-size: 21px !important;
+}
 .pt-4, .py-4 {
-    padding-top: 1.5rem!important;
+   
     padding-bottom: 49px;
 }
 
@@ -159,7 +177,8 @@ font-size: 34px;
 .btn-outline{
     border-radius: 0rem !important;
     background-color: #C9AD85;
-    
+        padding: 8px 24px 8px 24px !important;
+        font-size: 19px !important;
 }
 .line {
     margin-top: -1rem;
@@ -181,7 +200,7 @@ font-size: 34px;
  text-align: center;
 }
 .pad-up-slide{
-padding-top: 148px;
+padding-top: 112px;
 }
 .name{
     font-weight: bold;
@@ -191,8 +210,14 @@ padding-top: 148px;
 .para6{
     color: white;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    
+    width: 41px !important;
+    height: 49px !important;
+  
+}
 .para7{
-    color: #C9AD85;
+    color:rgb(197, 175, 144);
     padding-left: 235px;
     padding-right: 235px;
     padding-top: 21px;
@@ -222,13 +247,13 @@ padding-bottom: 13px;
 }
 .form-control
 {
-    background-color: #dee1e4 !important;
-    border: 0px solid #b8bec4 !important;
+    background-color: #f0f0f0 !important;
+    border: 0px solid #f0f0f0 !important;
 }
 .btn-out{
     
     text-align: center;
-    padding: 39px 29px 68px 29px;
+    padding: 39px 29px 96px 29px;
 }
 .md-form{
     padding-top: 26px;
@@ -236,19 +261,22 @@ padding-bottom: 13px;
 .page-footer{
     background-color:#3B3D47 ;
 }
-.footer-img{
+.footer-img {
     height: 132px;
-    width: 178px;
-    padding-left: 42px;
+    width: 150px;
+    padding-left: 3px;
 }
 .left {
     float: left;
     color: #C9AD85;
-    padding: 42px;
+    padding: 32px;
+    font-size: 20px;
 }
 .foo-div{
     padding-left: 172px;
     padding-right: 172px;
+    padding-top: 69px;
+    padding-bottom: 23px;
 }
 .btn-send {
     padding: 3px 23px 3px 23px;
@@ -265,11 +293,7 @@ padding-bottom: 13px;
 
 
 @media (max-width:1400px){
-    .left {
-        float: left;
-        color: #C9AD85;
-        padding: 48px;
-    }
+   
     .pad-up-slide {
         padding-top: 77px;
     }
@@ -283,7 +307,12 @@ padding-bottom: 13px;
     .left {
         float: left;
         color: #C9AD85;
-        padding: 48px 27px 22px 37px;
+        padding: 48px 9px 22px 37px;
+    }
+    .footer-img {
+        height: 133px;
+        width: 149px;
+        padding-left: 7px;
     }
 }
 
@@ -314,11 +343,7 @@ padding-bottom: 13px;
         padding-left: 104px;
         padding-right: 104px;
     }
-    .left {
-        float: left;
-        color: #C9AD85;
-        padding: 48px 24px 22px 37px;
-    }
+    
     .img_Phone {
         height: 499px;
         float: right;
@@ -335,7 +360,8 @@ padding-bottom: 13px;
     .left {
         float: left;
         color: #C9AD85;
-        padding: 33px;
+        font-size: 17px;
+        padding: 43px 19px 19px 16px;
     }
     .footer-img {
         height: 116px;
@@ -406,7 +432,7 @@ padding-bottom: 13px;
     .left {
         float: left;
         color: #C9AD85;
-        padding: 32px 8px 0px 3px;
+        padding: 32px 6px 0px 3px;
         font-size: 15px;
     }
     .btn-send {
@@ -467,6 +493,10 @@ padding-bottom: 13px;
         float: right;
         padding-top: 23px;
     }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 31px !important;
+        height: 49px !important;
+    }
 }
 
 
@@ -493,6 +523,10 @@ padding-bottom: 13px;
     .img_bt {
         height: 51px;
         padding-top: 15px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 27px !important;
+        height: 49px !important;
     }
     .para7 {
         color: #C9AD85;
@@ -541,6 +575,11 @@ padding-bottom: 13px;
         border-radius: 0rem !important;
         background-color: #C9AD85;
        
+    }
+    .btn-outlined {
+        border-radius: 0rem !important;
+        background-color: #C9AD85;
+        padding: 5px 32px 5px 32px;
     }
     .para5 {
         color: white;
@@ -703,6 +742,11 @@ padding-bottom: 13px;
    .view-more{
     text-align: center;
 }
+.footer-img {
+    height: 96px;
+    width: 96px;
+    padding-left: 0px;
+}
 
 }
 
@@ -730,13 +774,23 @@ padding-bottom: 13px;
         background-color: #C9AD85;
      
     }
+    .line-number {
+        margin-top: -1%;
+        margin-bottom: -1rem;
+        margin-left: 46%;
+        margin-right: 46%;
+        border: 0;
+        border-top: 4px solid #C9AD85;
+        padding-bottom: 43px;
+    }
     .img_bt {
         height: 51px;
-        padding-top: 15px;
-        padding-left: 61px;
+        padding-top: 14px;
+        padding-left: 121px;
     }
     .left2 {
         float: left;
+
         font-size: 16px;
         padding: 0px 1px 9px 56px;
         color: #C9AD85;
@@ -753,6 +807,7 @@ padding-bottom: 13px;
         margin: 65px;
         margin-bottom: 35px;
         color: #707575;
+        padding-top: 25px;
     }
     .btn-outline {
         border-radius: 0rem !important;
@@ -774,6 +829,11 @@ padding-bottom: 13px;
         padding: .25rem .35rem !important;
         font-size: 1.15rem !important;
        
+    }
+    .img_bt {
+        height: 51px;
+        padding-top: 15px;
+        padding-left: 110px;
     }
     .para5 {
         color: white;
@@ -849,4 +909,23 @@ padding-bottom: 13px;
             background-color: #C9AD85;
            
         }
+
+@media  (max-width: 320px) { 
+    .navbar-toggler {
+        padding: 0.2rem .65rem !important;
+        font-size: 2.15rem !important;
+    }
+    .left2 {
+        float: left;
+        font-size: 11px;
+        padding: 0px 1px 6px 52px;
+        color: #C9AD85;
+    }
+    .left3 {
+        float: left;
+        font-size: 11px;
+        padding: 0px 1px 29px 47px;
+        color: #C9AD85;
+    }
+}
 }
