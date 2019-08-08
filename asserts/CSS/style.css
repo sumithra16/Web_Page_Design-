@@ -21,6 +21,9 @@ margin-left: 43px !important;
 font-size: 19px !important;
 display: inline !important;
 }
+.pt-41{
+       display: table-column;;
+}
 .navbar{
     padding: 0% !important;
 }
@@ -47,6 +50,15 @@ display: inline !important;
     background-image: url("/home/maindwave-dev1/Documents/Task3/asserts/Images/icons.png");
    
     
+}
+.line-number {
+    margin-top: -4%;
+    margin-bottom: -1rem;
+    margin-left: 44%;
+    margin-right: 44%;
+    border: 0;
+    border-top: 4px solid #C9AD85;
+    padding-bottom: 53px;
 }
 
 .para_one{
@@ -90,15 +102,18 @@ display: inline !important;
 font-size: 34px;
     text-align: center;
     color: #C9AD85;
-    border-bottom: 5px solid #C9AD85;
+    
     font-weight: bold;
-    margin: 0px 135px 39px 135px;
+  
     
 }
-
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 49px;
+}
 
 .card{
-    width: 22rem !important;
+    width: 20rem !important;
 }
 
 .card-text{
@@ -121,6 +136,9 @@ font-size: 34px;
 .head4{
     color: #C9AD85;
     padding: 89px 198px 9px 0px !important;
+}
+.img-rounded{
+    border: 3px solid #C9AD85;
 }
 .feature{
     color: white;
@@ -154,8 +172,8 @@ font-size: 34px;
 .line1 {
     margin-top: -1rem;
     margin-bottom: -1rem;
-    margin-left: 44%;
-    margin-right: 44%;
+    margin-left: 43.5%;
+    margin-right: 43.5%;
     border: 0;
     border-top: 5px solid #C9AD85;
 }
@@ -199,12 +217,13 @@ padding-bottom: 13px;
     border: 0;
     border-top: 5px solid #C9AD85;
 }
-.new_rows{
-    padding: 58px 110px 0px 110px;
+.new_rows {
+    padding: 72px 187px 0px 187px;
 }
 .form-control
 {
-    background-color: #f8f6f6 !important;
+    background-color: #dee1e4 !important;
+    border: 0px solid #b8bec4 !important;
 }
 .btn-out{
     
@@ -222,13 +241,17 @@ padding-bottom: 13px;
     width: 178px;
     padding-left: 42px;
 }
-.left{
+.left {
     float: left;
     color: #C9AD85;
-    padding: 64px;
+    padding: 42px;
 }
-.btn-send{
-    padding: 6px 31px 6px 31px;
+.foo-div{
+    padding-left: 172px;
+    padding-right: 172px;
+}
+.btn-send {
+    padding: 3px 23px 3px 23px;
     background-color: #C9AD85;
 }
 
@@ -253,6 +276,15 @@ padding-bottom: 13px;
     .new_rows {
         padding: 49px 157px 0px 157px;
     }
+    .foo-div {
+        padding-left: 138px;
+        padding-right: 138px;
+    }
+    .left {
+        float: left;
+        color: #C9AD85;
+        padding: 48px 27px 22px 37px;
+    }
 }
 
 
@@ -274,9 +306,18 @@ padding-bottom: 13px;
         font-size: 34px;
         text-align: center;
         color: #C9AD85;
-        border-bottom: 5px solid #C9AD85;
+        
         font-weight: bold;
-        margin: 9px 101px 39px 101px;
+       
+    }
+    .foo-div {
+        padding-left: 104px;
+        padding-right: 104px;
+    }
+    .left {
+        float: left;
+        color: #C9AD85;
+        padding: 48px 24px 22px 37px;
     }
     .img_Phone {
         height: 499px;
@@ -344,6 +385,10 @@ padding-bottom: 13px;
         padding-bottom: 12px;
         padding-top: 29px;
     }
+    .foo-div {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
     .h3, h3 {
         font-size: 1.55rem !important;
     }
@@ -355,13 +400,14 @@ padding-bottom: 13px;
     }
     .footer-img {
         height: 92px;
-        width: 113px;
-        padding-left: 2px;
+        width: 89px;
+        padding-left: 0px;
     }
     .left {
         float: left;
         color: #C9AD85;
-        padding: 25px 2px 8px 29px;
+        padding: 32px 8px 0px 3px;
+        font-size: 15px;
     }
     .btn-send {
         padding: 3px 23px 3px 23px;
@@ -391,13 +437,30 @@ padding-bottom: 13px;
         font-size: 34px;
         text-align: center;
         color: #C9AD85;
-        border-bottom: 5px solid #C9AD85;
+        padding-top: 32px;
         font-weight: bold;
-        margin: 17px 67px 39px 67px;
+       
+    }
+    .line-number {
+        margin-top: -4%;
+        margin-bottom: -1rem;
+        margin-left: 44%;
+        margin-right: 44%;
+        border: 0;
+        border-top: 4px solid #C9AD85;
+        padding-bottom: 33px;
     }
     .logo {
         height: 72px;
         padding-bottom: 6px !important;
+    }
+    .nav-link {
+        color: #C9AD85 !important;
+        padding-top: 17px !important;
+        padding-bottom: 21px !important;
+        margin-left: -4px !important;
+        font-size: 18px !important;
+        display: inline !important;
     }
     .img_Phone {
         height: 375px;
@@ -422,7 +485,7 @@ padding-bottom: 13px;
     .nav-link {
         color: #C9AD85 !important;
         padding-top: 0px !important;
-        padding-bottom: 16px !important;
+        padding-bottom: 0px !important;
         margin-left: 17px !important;
         font-size: 15px !important;
         display: inline !important;
@@ -438,6 +501,18 @@ padding-bottom: 13px;
         padding-top: 0px;
         padding-bottom: 2%;
     }
+    .card {
+        width: 116% !important;
+    }
+    .footer-img {
+        height: 87px;
+        width: 78px;
+        padding-left: 0px;
+    }
+    .foo-div {
+        padding-left: 82px;
+        padding-right: 68px;
+    }
     .new_rows {
         padding: 11px 29px 0px 29px;
     }
@@ -446,17 +521,18 @@ padding-bottom: 13px;
         padding: 23px 23px 0px 23px;
     }
     .card {
-        width: 11rem !important;
+        width: 100% !important;
     }
     .footer-img {
         height: 94px;
-        width: 85px;
-        padding-left: 2px;
+        width: 71px;
+        padding-left: 0px;
     }
     .left {
         float: left;
         color: #C9AD85;
-        padding: 35px 0px 8px 13px;
+        padding: 24px 8px 8px 4px;
+        font-size: 17px;
     }
     .h3, h3 {
         font-size: 1.30rem !important;
@@ -464,7 +540,7 @@ padding-bottom: 13px;
     .btn-outline {
         border-radius: 0rem !important;
         background-color: #C9AD85;
-        margin-left: 196px;
+       
     }
     .para5 {
         color: white;
@@ -505,9 +581,20 @@ padding-bottom: 13px;
         font-size: 34px;
         text-align: center;
         color: #C9AD85;
-        border-bottom: 5px solid #C9AD85;
+       
         font-weight: bold;
-        margin: 7px 57px 17px 57px;
+       
+    }
+    .left {
+        float: left;
+        color: #C9AD85;
+        padding: 22px 0px 8px 4px;
+        font-size: 13px;
+    }
+    .footer-img {
+        height: 80px;
+        width: 65px;
+        padding-left: 0px;
     }
     .line {
         margin-top: -1rem;
@@ -524,11 +611,64 @@ padding-bottom: 13px;
         padding-left: 96px;
     }
 }
+@media  (max-width:680px){
 
+    .left {
+        float: left;
+        color: #C9AD85;
+        padding: 22px 12px 8px 4px;
+        font-size: 13px;
+    }
+    .foo-div {
+        padding-left: 47px;
+        padding-right: 47px;
+    }
+    .card {
+        width: 113% !important;
+    }
+    .view-more{
+        text-align: center;
+    }
+}
 
 
 
 @media  (max-width:576px){
+    .left2 {
+        float: left;
+        font-size: 16px;
+        padding: 0px 42px 10px 65px;
+        color: #C9AD85;
+        
+    }
+    .left3 {
+        float: left;
+        font-size: 16px;
+        padding: 1px 42px 39px 57px;
+        color: #C9AD85;
+        text-align: center;
+    }
+    .card-text {
+        text-align: -webkit-center;
+        padding-bottom: 46px;
+        color: #5e666d;
+    }
+    .line-number {
+        margin-top: -1%;
+        margin-bottom: -1rem;
+        margin-left: 47%;
+        margin-right: 47%;
+        border: 0;
+        border-top: 4px solid #C9AD85;
+        padding-bottom: 43px;
+    }
+    .para_one {
+        font-size: 23px !important;
+        padding-top: 34px;
+        font-weight: bold;
+        line-height: 1.1 !important;
+        text-align: center;
+    }
    
     .img_Phone {
         height: 375px;
@@ -536,24 +676,182 @@ padding-bottom: 13px;
         padding-top: 23px;
         padding-left: 103px;
     }
+    .pt-4{
+        display: table-column;
+    }
+    .pt-41{
+    display: block;
+    }
     .btn-outline {
         border-radius: 0rem !important;
         background-color: #C9AD85;
-        margin-left: 167px;
+        
     }
     .img_bt {
         height: 51px;
         padding-top: 15px;
         padding-left: 95px;
     }
-    .card{
-        width: 18rem;
+    .card {
+        width: 100% !important;
+        
     }
-    .footer-img{
-        height: 94px;
-        width: 404px;
-        padding-left: 203px;
-        float: left;
-    }
+   
+   .footer-center1{
+       text-align: center;
+   }
+   .view-more{
+    text-align: center;
+}
 
+}
+
+
+
+
+
+
+
+@media  (max-width: 490px) { 
+    .img_Phone {
+        height: 335px;
+        float: left;
+        padding-top: 23px;
+        padding-left: 54px;
+    }
+    .navbar-toggler {
+        padding: .25rem .45rem !important;
+        font-size: 1.15rem !important;
+       
+    }
+    .img_Phone1 {
+        height: 346px;
+        float: left;
+        padding-top: 51px;
+        padding-left: 62px;
+    }
+    .btn-outline {
+        border-radius: 0rem !important;
+        background-color: #C9AD85;
+     
+    }
+    .img_bt {
+        height: 51px;
+        padding-top: 15px;
+        padding-left: 61px;
+    }
+    .left2 {
+        float: left;
+        font-size: 16px;
+        padding: 0px 1px 9px 56px;
+        color: #C9AD85;
+    }
+    .left3 {
+        float: left;
+        font-size: 16px;
+        padding: 0px 1px 33px 48px;
+        color: #C9AD85;
+    }
+    .para3-1 {
+
+        text-align: center;
+        margin: 65px;
+        margin-bottom: 35px;
+        color: #707575;
+    }
+    .btn-outline {
+        border-radius: 0rem !important;
+        background-color: #C9AD85;
+      
+    }
+    .view-more{
+        text-align: center;
+    }
+    
+}
+
+
+@media  (max-width: 360px) { 
+    .phone_img{
+        text-align: center;
+    }
+    .navbar-toggler {
+        padding: .25rem .35rem !important;
+        font-size: 1.15rem !important;
+       
+    }
+    .para5 {
+        color: white;
+        font-size: 13px;
+        padding: 0px 38px 0px 38px;
+        text-align: center;
+    }
+    .para7 {
+        color: #C9AD85;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 0px;
+        padding-bottom: 2%;
+    }
+    .para3-1 {
+        text-align: center;
+        margin: 75px 0px 37px 8px;
+       
+        color: #707575;
+    }
+    .left2 {
+        float: left;
+        font-size: 11px;
+        padding: 0px 1px 6px 62px;
+        color: #C9AD85;
+    }
+    .left3 {
+        float: left;
+        font-size: 11px;
+        padding: 0px 1px 29px 57px;
+        color: #C9AD85;
+    }
+    .btn-send {
+        padding: 3px 23px 3px 23px;
+        background-color: #C9AD85;
+    }
+    .img_Phone {
+        height: 375px;
+        float: left;
+        padding-top: 23px;
+        padding-left: 1px;
+    }
+    .img_Phone1 {
+        height: 371px;
+        float: left;
+        padding-top: 51px;
+        padding-left: 19px;
+    }
+    .view-more{
+        text-align: center;
+    }
+}
+@media (max-width: 320px){
+    .navbar-toggler-icon {
+        width: 0.5em !important;
+        height: 0.5em !important;
+        }
+        .line-number {
+            margin-top: -4%;
+            margin-bottom: -1rem;
+            margin-left: 45%;
+            margin-right: 44%;
+            border: 0;
+            border-top: 4px solid #C9AD85;
+            padding-bottom: 30px;
+        }
+        .view-more{
+            text-align: center;
+        }
+       
+        .btn-outline {
+            border-radius: 0rem !important;
+            background-color: #C9AD85;
+           
+        }
 }
