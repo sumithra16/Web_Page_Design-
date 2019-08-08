@@ -9,18 +9,16 @@ body{
 .para_How{
     padding-bottom: 84px;
 }
-.logo{
-
-    height: 93px ;
+.logo {
+   
     padding-bottom: 6px !important;
+    width: 53%;
 }
 .nav-link  {
-    color: #C9AD85 !important;     
-padding-top: 14px !important;
-padding-bottom: 32px !important;
-margin-left: 43px !important;
+      
 font-size: 19px !important;
-display: inline !important;
+padding: 14px 0px 16px 37px !important;
+
 }
 .pt-41{
        display: table-column;;
@@ -47,6 +45,8 @@ display: inline !important;
 .bg-overlay{
     background-color:#3B3D47 ;
     color: #C9AD85;
+    padding-top: 6px;
+    padding-bottom: 30px;
     background-repeat: repeat;
     background-image: url("/home/maindwave-dev1/Documents/Task3/asserts/Images/icons.png");
       
@@ -57,7 +57,7 @@ display: inline !important;
     padding: 5px 32px 5px 32px !important;
 }
 .rounded-circle{
-    height: 79px;
+   width: 9%;
 }
 .line-number {
     margin-top: -4%;
@@ -70,20 +70,21 @@ display: inline !important;
 }
 
 .para_one{
-    font-size: 34px !important;
-    padding-top: 130px;
+    font-size: 34px ;
+    padding: 172px 11px 19px 0px;
     font-weight: bold;
     line-height: 1.1 !important;
+    margin: 0px !important;
   
 }
 
-.img_bt{
-   
-    height: 62px;
-    padding-top: 15px;
+.img_bt {
+    height: 63px;
+    padding-top: 15px;   
+    padding-right: 20px;    
 }
 .img_Phone {
-    height: 546px;
+   width: 88%;
     float: right;
     padding-top: 23px;
 }
@@ -97,14 +98,15 @@ a {
     font-size: 31px;
     padding-top: 59px;
     text-align: center;
-   
+   margin: 0px !important;
     
     font-weight: bold;
 }
-.para3-1{
+.para3-1 {
     text-align: center;   
-     margin: 85px;
-     color: #707575;
+    color: #707575;
+    padding: 92px 105px 80px 105px;   
+    margin: 0px !important;
 }
 .card-subtitle{
     font-weight: bold;
@@ -161,8 +163,8 @@ font-size: 34px;
 .feature{
     color: white;
     text-align: center;
-    padding-bottom: 15px;
-  
+    padding-bottom: 8px;
+    margin: 0px;
     padding-top: 41px;
 }
 .img_Phone1 {
@@ -172,7 +174,8 @@ font-size: 34px;
 }
 .para5{
     color: white;
-   
+   margin: 0 !important;
+   padding-bottom: 24px !important;
 }
 .btn-outline{
     border-radius: 0rem !important;
@@ -181,34 +184,37 @@ font-size: 34px;
         font-size: 19px !important;
 }
 .line {
-    margin-top: -1rem;
-    margin-bottom: -1rem;
+  
     margin-left: 47%;
     margin-right: 47%;
     border: 0;
     border-top: 5px solid #C9AD85;
 }
 .line1 {
-    margin-top: -1rem;
-    margin-bottom: -1rem;
-    margin-left: 43.5%;
-    margin-right: 43.5%;
-    border: 0;
+        border: 0;
+    width: 17%;
+    margin: auto;
     border-top: 5px solid #C9AD85;
 }
 .carousel-item{
  text-align: center;
 }
 .pad-up-slide{
-padding-top: 112px;
+padding-top: 135px;
 }
 .name{
     font-weight: bold;
     color: #C9AD85;
+    font-size: 20px;
     padding-top: 16px;
+    margin: 0px !important;
+}
+.testimo{
+    padding: 76px 0px 169px 0px !important;
 }
 .para6{
     color: white;
+    margin: 0px;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     
@@ -216,34 +222,33 @@ padding-top: 112px;
     height: 49px !important;
   
 }
-.para7{
-    color:rgb(197, 175, 144);
-    padding-left: 235px;
-    padding-right: 235px;
-    padding-top: 21px;
-    padding-bottom: 13%;
+.para7 {
+    color: rgb(197, 175, 144);
+    padding: 23px 0px 13px 0px;
+    width: 62%;
+    font-size: 18px;
+    margin: auto !important;
 }
 .contact{
     color:#C9AD85;
 font-weight: bold;
 text-align: center;
-padding-top: 51px;
-padding-bottom: 13px;
+padding-top: 96px;
+padding-bottom: 6px;
+margin: 0px;
 }
 .one-row{
     padding-top: 35px !important;
       
 }
 .line2 {
-    margin-top: -1rem;
-    margin-bottom: -1rem;
-    margin-left: 47%;
-    margin-right: 47%;
+    width: 6%;
+    margin: auto;
     border: 0;
     border-top: 5px solid #C9AD85;
 }
 .new_rows {
-    padding: 72px 187px 0px 187px;
+    padding: 82px 187px 0px 187px;
 }
 .form-control
 {
@@ -371,6 +376,16 @@ padding-bottom: 13px;
     .pad-up-slide {
         padding-top: 47px;
     }
+    .logo {
+       
+        padding-bottom: 6px !important;
+        width: 206px;
+    }
+    .nav-link {
+       
+        margin-left: 13px !important;
+       
+    }
 }
 
 
@@ -390,9 +405,9 @@ padding-bottom: 13px;
     .nav-link {
         color: #C9AD85 !important;
         padding-top: 17px !important;
-        padding-bottom: 34px !important;
-        margin-left: -4px !important;
-        font-size: 18px !important;
+        padding-bottom: 21px !important;
+        margin-left: 12px !important;
+        font-size: 14px !important;
         display: inline !important;
     }
     .one-row {
@@ -497,6 +512,11 @@ padding-bottom: 13px;
         width: 31px !important;
         height: 49px !important;
     }
+    .logo {
+        padding-bottom: 6px !important;
+        width: 160px;
+    
+}
 }
 
 
@@ -807,7 +827,7 @@ padding-bottom: 13px;
         margin: 65px;
         margin-bottom: 35px;
         color: #707575;
-        padding-top: 25px;
+        padding-top: 25px;  
     }
     .btn-outline {
         border-radius: 0rem !important;
